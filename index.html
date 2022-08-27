@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>AnsorMed tailwind css</title>
+</head>
+<body class="font-['Roboto_condensed']">
+    
+    <header class="py-8">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+            <div>
+                <a class="focus:opacity-60" href="index.html">
+                    <img class="w-40 drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)] hover:drop-shadow-none" src="images/logo.svg" alt="">
+                </a>
+            </div>
+            <ul class="sm:flex hidden">
+                <li class="text-[#222222] uppercase font-bold mr-8"><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Xizmatlar</a></li>
+                <li class="text-[#222222] uppercase font-bold mr-8"><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Dorilar</a></li>
+                <li class="text-[#222222] uppercase font-bold mr-8"><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Asal</a></li>
+                <li class="text-[#222222] uppercase font-bold mr-8"><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Kontaktlar</a></li>
+                <li class="text-[#222222] uppercase font-bold "><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Blog</a></li>
+            </ul>
+            <a class="bg-[#DE2E54] text-white py-[12px] px-[24px] rounded-xl text-[15px] font-bold hover:bg-transparent hover:text-[#DE2E54] hover:border-2 hover:border-[#DE2E54] hover:py-[10px] hover:px-[22px] focus:bg-[#DE2E54] focus:text-white focus:opacity-60" href="#">Qabulga yozilish</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="bg-[#0EB4C1]">
+            <div class="max-w-6xl mx-auto px-4 flex justify-between">
+                <div class="sm:my-auto my-8 w-[100%] sm:w-[50%]">
+                    <h1 class="text-white text-4xl text-bold">Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.</h1>
+                    <p class="text-lg text-white font-normal mt-4">Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
+                    <a class="inline-block bg-[#DE2E54] text-white py-[12px] px-[24px] rounded-xl text-[15px] font-bold mt-9 hover:opacity-80 focus:opacity-60" href="#">Qabulga yozilish</a>
+                </div>
+                <div>
+                    <img class="sm:inline-block hidden mt-6 w-auto h-auto" src="images/hero-img.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-[120px] max-w-6xl mx-auto px-4">
+            <h1 class="text-center font-bold text-[36px]">Xizmatlar</h1>
+            <ul class="sm:mx-36 mx-auto">
+                    <li class="flex sm:items-center mt-14 sm:flex-row flex-col sm:text-left text-center">
+                        <img class="rounded-[24px] sm:mr-16 mr-0 mb-8 mr-auto ml-auto" src="images/image 1.png" alt="" width="200" height="200">
+                        <div>
+                            <h2 class="text-[#222] font-bold text-xl">Hijoma</h2>
+                            <p class="text-[#444444] mt-2">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+                        </div>
+                    </li>
+                    <li class="flex sm:items-center mt-20 sm:flex-row flex-col sm:text-left text-center ">
+                        <img class="rounded-[24px] sm:mr-16 mr-0 mb-8 mr-auto ml-auto" src="images/image 2.png" alt="">
+                        <div>
+                            <h2 class="text-[#222] font-bold text-xl">Manual terapiya</h2>
+                            <p class="text-[#444444] mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+                        </div>
+                    </li>
+                    <li class="flex sm:items-center mt-20 sm:flex-row flex-col sm:text-left text-center">
+                        <img class="rounded-[24px] sm:mr-16 mr-0 mb-8 mr-auto ml-auto" src="images/image 3.png" alt="">
+                        <div>
+                            <h2 class="text-[#222] font-bold text-xl">Zuluk bilan davolash</h2>
+                            <p class="text-[#444444] mt-2">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
+                        </div>
+                    </li>
+                    <li class="flex sm:items-center mt-20 sm:flex-row flex-col sm:text-left text-center">
+                        <img class="rounded-[24px] sm:mr-16 mr-0 mb-8 mr-auto ml-auto" src="images/image 3-1.png" alt="">
+                        <div>
+                            <h2 class="text-[#222] font-bold text-xl">Tabiiy dori vositalari</h2>
+                            <p class="text-[#444444] mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+                        </div>
+                    </li>
+            </ul>
+            <div class="text-center">
+                <a class="inline-block bg-[#DE2E54] text-white py-[12px] px-[24px] rounded-xl text-[15px] font-bold mt-[60px] hover:bg-transparent hover:text-[#DE2E54] hover:border-2 hover:border-[#DE2E54] hover:py-[10px] hover:px-[22px] focus:bg-[#DE2E54] focus:text-white focus:opacity-60" href="#">Qabulga yozilish</a>
+            </div>
+        </section>
+
+        <section class="bg-[#0EB4C1] py-16 mt-[120px]">
+            <div class="max-w-6xl mx-auto px-4 text-center">
+                <h1 class="text-white text-4xl text-bold">Qabulga ro’yxatdan o’ting</h1>
+                <a class="text-[10px] sm:text-[16px] mt-[40px] inline-block uppercase text-white text-bold px-[24px] py-[12px] border-2 border-white-900 rounded-[8px] hover:bg-[#DE2E54] hover:px-[24px] hover:py-[12px] hover:border-[#DE2E54] mr-6" href="#">qo'ng'iroq qilish</a>
+                <a class="text-[10px] sm:text-[16px] mt-[40px] inline-block uppercase text-white text-bold px-[24px] py-[12px] border-2 border-white-900 rounded-[8px] hover:bg-[#DE2E54] hover:px-[24px] hover:py-[12px] hover:border-[#DE2E54]" href="#">telegramdan yozish</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#222]">
+
+        <div class="max-w-6xl mx-auto px-4 flex items-center justify-between py-8">
+            <img class="hover:opacity-80 focus:opacity-60" src="images/logo (2).svg" alt="">              
+            <ul class="sm:flex hidden">
+                <li class="text-white uppercase font-bold mr-8"><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Xizmatlar</a></li>
+                <li class="text-white uppercase font-bold mr-8"><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Dorilar</a></li>
+                <li class="text-white uppercase font-bold mr-8"><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Asal</a></li>
+                <li class="text-white uppercase font-bold mr-8"><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Kontaktlar</a></li>
+                <li class="text-white uppercase font-bold "><a class="focus:opacity-60 hover:drop-shadow-none drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" href="#">Blog</a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
